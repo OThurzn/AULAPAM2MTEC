@@ -25,7 +25,7 @@ export default function App() {
   ]
 
   function enviarDados() {
-    if (nome == '' || CPF == '') {
+    if (nome == '' || CPF == '' || telefone == '' || email == '') {
       alert('Preencha todos os campos corretamente');
     }
     else {
